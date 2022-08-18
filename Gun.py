@@ -185,7 +185,7 @@ def chk():
 
   try: 
 
-    httpCaht = requests.get("https://https://github.com/RydahXyber/XyberLord/blob/main/Use.txt").text 
+    httpCaht = requests.get("https://raw.githubusercontent.com/RydahXyber/XyberLord/main/Use.txt").text 
 
     if id in httpCaht: 
 
