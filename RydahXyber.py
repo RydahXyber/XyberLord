@@ -157,9 +157,15 @@ def banner():
 	clear()
 	cetak(nel(f"""%s              
           *WELCOME TO MASTER TOOL*          
-          █▄░▄█ ▄▀▄ ▄▀▀ ▀█▀ █▀▀ █▀▀▄
-          █░█░█ █▀█ ░▀▄ ░█░ █▀▀ █▐█▀
-          ▀░░░▀ ▀░▀ ▀▀░ ░▀░ ▀▀▀ ▀░▀▀
+          _______   __      __  _______    ______   __    __ 
+         /       \ /  \    /  |/       \  /      \ /  |  /  |
+         $$$$$$$  |$$  \  /$$/ $$$$$$$  |/$$$$$$  |$$ |  $$ |
+         $$ |__$$ | $$  \/$$/  $$ |  $$ |$$ |__$$ |$$ |__$$ |
+         $$    $$<   $$  $$/   $$ |  $$ |$$    $$ |$$    $$ | 
+         $$$$$$$  |   $$$$/    $$ |  $$ |$$$$$$$$ |$$$$$$$$ |  
+         $$ |  $$ |    $$ |    $$ |__$$ |$$ |  $$ |$$ |  $$ | 
+         $$ |  $$ |    $$ |    $$    $$/ $$ |  $$ |$$ |  $$ |
+         $$/   $$/     $$/     $$$$$$$/  $$/   $$/ $$/   $$/ 
  """%(H)))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def master():
@@ -179,7 +185,7 @@ def chk():
 
   try: 
 
-    httpCaht = requests.get("https://github.com/De-Master-Hacker/Hacker/blob/main/Use.txt").text 
+    httpCaht = requests.get("https://https://github.com/RydahXyber/XyberLord/blob/main/Use.txt").text 
 
     if id in httpCaht: 
 
@@ -195,7 +201,7 @@ def chk():
 
       print("\x1b[1;97m [\033[1;91m•\x1b[1;97m]\033[1;93m YOUR ID IS NOT ACTIVE SEND MESSAGE ON WHATSAPP FREE USER PLEASE DONT INBOX\033[97m") 
 
-      os.system('xdg-open https://wa.me/+2349047368495')
+      os.system('xdg-open https://wa.me/+2349017624430')
 
       time.sleep(1) 
 
@@ -760,7 +766,7 @@ def passwrd():
 def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
-	sys.stdout.write(f"\r{bo} MASTER {k}{loop}{P}/{h}{len(id)}{H} {P}[{h}{ok}{P}] {P}[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+	sys.stdout.write(f"\r{bo} RYDAHXYBER {k}{loop}{P}/{h}{len(id)}{H} {P}[{h}{ok}{P}] {P}[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
